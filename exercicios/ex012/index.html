@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inderindo videos hospedados localmente</h1>
+    <hr>
+    <p>Este video esta hospedado no meu proprio servivdor.</p>
+    <!--<video src="midia/cats.mp4" width="500" controls></video>!-->
+
+    <video controls poster="imagem/thumb-cats.jpg" width="560">
+        <source src="midia/cats.webm" type="video/webm">
+        <source src="midia/cats.mp4" type="video/mp4">
+        <source src="midia/cats.ogv" type="video/ogg">
+        <p>Seu computador nao tem compatibilidade com reproduçao de video. </p>
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <hr>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HcGNqrAtsgg?si=69ln-6RT0qaaCpgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <h1>Inserindo videos do Vimeo</h1>
+  <hr>
+    <iframe src="https://player.vimeo.com/video/3989061?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="378" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="ID Canal FIZ"></iframe>
+
+    
+</body>
+</html>
