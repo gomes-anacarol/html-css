@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            /*A combinaçao do size e attachment deixa a imagem de fundo cobrindo toda a tela do navegador, e se o usuario descer o conteudo da tela a imagem ficara fixada.*/
             background-size: cover;
+            background-attachment: fixed;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
